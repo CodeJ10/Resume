@@ -939,3 +939,9 @@ span {
 img {
     border-radius: 20px;
 }
+/* Add this media query at the end of the style.css file */
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
+}
